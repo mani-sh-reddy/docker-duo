@@ -8,6 +8,8 @@ services:
       protocol: tcp
   nginx:
     image: nginx:latest
+    environment:
+      YOUR_NAME: Luke
     ports:
     - target: 80
       published: 80
