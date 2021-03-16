@@ -2,7 +2,7 @@ version: '3.8'
 services:
   flask-app:
     environment:
-      YOUR_NAME: ${YOUR_NAME}
+      YOUR_NAME: Luke
     build: ./flask-app
     ports:
     - target: 5500
