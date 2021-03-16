@@ -5,7 +5,7 @@ COPY . .
 # Install pip dependencies from requirements
 RUN pip3 install flask
 # Set YOUR_NAME environment variable
-ARG YOUR_NAME='Luke'
+ARG YOUR_NAME=$YOUR_NAME
 # Expose the correct port
 EXPOSE 5500
 # Create an entrypoint
